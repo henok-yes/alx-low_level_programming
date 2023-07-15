@@ -2,13 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * 
- * Description: check rundom number is positive ,negative or zero.
- * @parameter: intiger n
- * 
- * Return: Always 0 (Success)
- */
+*main - take ar andom number
+*escription: check rundom number is positive,negative or zero
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n;
