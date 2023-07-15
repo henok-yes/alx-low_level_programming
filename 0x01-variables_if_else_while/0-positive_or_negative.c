@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * my_function - This is a description
+ *main -determine a rundom a number is positive,negative or zero.
+ *
+ *return -always 0(success)
  */
 int main(void)
 {
