@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main -determine a rundom a number is positive,negative or zero.
+ *Description: main determine a rundom a number is positive,negative or zero.
  *
+ * 
  *return: always 0 (success)
  */
 int main(void)
