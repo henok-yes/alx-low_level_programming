@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *Description: main determine a rundom a number is positive,negative or zero.
- *
+ * main - Entry point
  * 
- *return: always 0 (success)
+ * Description: check rundom number is positive ,negative or zero.
+ * @parameter: intiger n
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
