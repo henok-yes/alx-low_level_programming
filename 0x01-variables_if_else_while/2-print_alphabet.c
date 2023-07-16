@@ -6,12 +6,12 @@
 */
 int main(void)
 {
-char smallAlphabt[52] = "abcdefghijklmnopqrstuvwxyz";
+char smallAlphabt[26] = "abcdefghijklmnopqrstuvwxyz";
 int x;
-for (x = 0; x <= 51; x++)
+for (x = 0; x <= 25; x++)
 {
 putchar(smallAlphabt[x]);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
