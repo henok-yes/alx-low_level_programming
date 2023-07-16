@@ -6,10 +6,12 @@
 */
 int main(void)
 {
-for (int x = 'A'; x <= 'Z'; x++)
+char smallAlphabt[52] = "abcdefghijklmnopqrstuvwxyz";
+int x;
+for (x = 0; x <= 51; x++)
 {
-char new_x = tolower(x);
-putchar(new_x);
+putchar(smallAlphabt[x]);
 }
+putchar("\n");
 return (0);
 }
