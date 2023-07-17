@@ -15,15 +15,15 @@ int main(void)
 			if (i < j)
 			{
 				putchar(i);
-					putchar(j);
-					if (j > i)
-					{
-						putchar(',');
-							putchar(' ');
-					}
+				putchar(j);
+				if (j != 57 || i != 56)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
 	putchar('\n');
-		return (0);
+	return (0);
 }
