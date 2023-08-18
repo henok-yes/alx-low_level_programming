@@ -22,7 +22,7 @@ if (bytes < 0)
 printf("Error\n");
 exit(2);
 }
-arr = (char *)main;
+arry = (char *)main;
 for (x = 0; x < bytes; x++)
 {
 if (x == bytes - 1)
