@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 int num1, num2, mult;
 if (argc < 3 || argc > 3)
 {
-printf("error\n");
+printf("Error\n");
 return (1);
 }
 num1 = atoi(argv[1]);
