@@ -1,5 +1,3 @@
-
-
 #include "main.h"
 /**
 * print_binary – this function Prints the binary representation or
@@ -9,14 +7,14 @@
 
 void print_binary(unsigned long int n)
 {
-int n, counter = 0;
-unsigned long int equvalent;
+int x, counter = 0;
+unsigned long int now;
 
-for (n = 63; i >= 0; n--)
+for (x = 63; x >= 0; x--)
 {
-equvalent= = n >> i;
+now = n >> x;
 
-if (equvalent & 1)
+if (now & 1)
 {
 _putchar('1');
 counter++;
