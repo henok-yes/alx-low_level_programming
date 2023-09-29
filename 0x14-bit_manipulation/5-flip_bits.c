@@ -14,7 +14,7 @@ unsigned long int left = n ^ m;
 
 for (x = 63; x >= 0; x--)
 {
-changed = left >> i;
+changed = left >> x;
 if (changed & 1)
 cnt++;
 }
