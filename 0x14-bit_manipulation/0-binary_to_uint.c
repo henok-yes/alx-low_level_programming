@@ -7,17 +7,22 @@
  * or contain characters other than '0' or '1'.
  * or converted intiger
  */
-int binary_to_uint(char *b)
+unsigned int binary_to_uint(const char *b)
 {
-int sum = 0, i, j, k = 0;
-for (i = 0; num[i]; i++)
+int i = 0, sum = 0;
+
+while (*b != '\0')
 {
-if ((num[i]) == '0' || (num[i]) == '1')
-continue;
+if ((*b == '0') || (*b == '1'))
+b++;
+else
 return (0);
 }
-j = i - 1;
-while (j >= 0)
-sum = sum + (num[j--] - '0') * (1 << k++);
+while (*(b - 1))
+{
+sum = sum + (*(b - 1) - '0') * (1 << i);
+b = b - 1;
+i++;
+}
 return (sum);
 }
