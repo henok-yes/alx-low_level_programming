@@ -1,11 +1,24 @@
-#include "main.h"
+#include "stdio.h"
 /**
-* print_binary – this function Prints the binary representation or
-* binary equivalence of  decimal number.
+* get_bit - function that returns the value of a bit at a given index.
 * @n: decimal number to be printed in binary form.
+* @index:index of a bit
+* Return: 1 or 0 if the bit is 1 or 0 respectively
 */
-
-void print_binary(unsigned long int n)
+int get_bit(unsigned long int n, unsigned int index)
 {
-    
+while (n > 0)
+{
+if ((n & 1 << index) != 0)
+return (1);
+else
+return (0);
+n >> 1;
 }
+return (0);
+}
+
+
+
+
+
