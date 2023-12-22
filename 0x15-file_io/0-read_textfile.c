@@ -16,7 +16,7 @@ ssize_t bytes_written, bytes_read;
 char *buffor;
 
 buffor = NULL;
-if(filename == NULL)
+if (filename == NULL)
 return (0);
 fd = open(filename, O_RDONLY);
 if (fd == -1)
